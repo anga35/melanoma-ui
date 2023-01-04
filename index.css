@@ -1,0 +1,178 @@
+
+*{
+    margin: 0px;
+    padding: 0px;
+    
+
+    font-family: Mulish;
+}
+html,body{
+    height: 100%;
+
+    padding-bottom: 10px;
+    overflow-x: hidden;
+}
+
+
+.header{
+
+width: auto;
+
+text-align: center;
+padding-top:1%;
+padding-bottom: 1%;
+}
+
+.upload-container{
+position: relative;
+
+    width:fit-content;
+    justify-content: center;
+}
+
+
+#upload-area{
+    width: 70rem;
+
+
+    padding: 10px;
+    
+
+}
+
+#upload-icon{
+    position: absolute;
+    width: 13%;
+    top: 10%;
+
+    right: 50%;
+    left:45%
+}
+
+.wrapper{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+h2{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 50%;
+    font-size: 2rem;
+
+
+}
+h3{
+    position: absolute;
+    width: 100%;
+    text-align: center;
+    top: 65%;
+    font-size: 1.2rem;
+    color: #676767;
+    font-weight: 400;
+
+}
+
+#image-cancer{
+    width: 20rem;
+    margin-top: 2rem;
+}
+#pipeline-gray{
+    width: 20rem;
+    object-fit: contain;
+align-self: center;
+
+}
+#pipeline-normal{
+    width: 20rem;
+    object-fit: contain;
+}
+
+#sample-container{
+    display: flex;
+    justify-content: center;
+}
+#sample-name{
+    width: 100%;
+    text-align: center;
+    margin-top: 10px;
+}
+.btn{
+    background-color: blueviolet;
+    border-radius: 10px;
+    width: fit-content;
+    margin-top: 10px;
+    
+
+}
+.btn-txt{
+    color: white;
+    padding: 10px;
+    padding-left: 15px;
+    padding-right: 15px;
+
+}
+#center-btn{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+#loading-icon{
+    display: none;
+    width: 100%;
+    justify-content: center;
+
+}
+#preprocessing-container{
+
+    width: 90rem;
+    height: 25rem;
+    /* margin-left: 5%;
+    margin-right: 5%; */
+    margin-top: 30px;
+
+    border-radius: 20px;
+    background-color: blueviolet;
+
+}
+
+#pipeline{
+    display: flex;
+    width: 100%;
+    justify-content: space-around;
+}
+
+.pipeline-container{
+    display: flex;
+    height:100%;
+    justify-self: center;
+    justify-content: center;
+    flex-direction: column;
+
+}
+#pipline-gray-text{
+    color: white;
+    width: 100%;
+    margin-top: 5px;
+    font-size: larger;
+    text-align: center;
+}
+#lotti-arrow{
+    transform: rotate(270deg);
+
+}
+.center-tag{
+    display: flex;
+    width: 100%;
+    justify-content: center;
+}
+.white-txt{
+    color: white;
+}
+
+#result{
+    font-size:2rem;
+    margin-top: 10px;
+}

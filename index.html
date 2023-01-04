@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com"><link rel="preconnect" href="https://fonts.gstatic.com" crossorigin><link href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="C:\Dev\melanoma_ui\index.css">
+
+    <title>Melanoma Classifier</title>
+
+</head>
+<script>
+function onOpenCVReady(){
+    console.log("Open cv loaded")
+}
+
+</script>
+
+<body>
+    <script src="https://docs.opencv.org/4.3.0/opencv.js" async onload="onOpenCVReady()"></script>
+
+    <h1
+    class="header">Melanoma Cancer Classifier</h1>
+
+<div class="wrapper">
+    <div class="upload-container">
+    <img id="upload-area" src="upload_area.png">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player id="upload-icon" src="https://assets1.lottiefiles.com/private_files/lf30_8npirptd.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+    <h2>Drag & drop files or browse</h2>
+    <h3>Supported formates: JPEG, PNG and other image formats.</h3>
+    </div>
+</div>    
+
+<div id="sample-container">
+    <img id="image-cancer" src="" alt="nothing heree">
+
+</div>
+
+
+
+
+
+<div id="loading-icon">
+    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+    <lottie-player src="https://assets1.lottiefiles.com/packages/lf20_p8bfn5to.json"  background="transparent"  speed="1"  style="width: 100px; height: 100px;"  loop  autoplay></lottie-player>
+
+</div>
+<script src="index.js"></script>
+</body>
+
+</html>
